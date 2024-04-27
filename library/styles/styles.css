@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.filterForm {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.categoryForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBtn {
+   border: none; 
+   color: white;
+   width: 100px;
+   height: 35px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all .2s ease;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.actionBtn:hover {
+    scale: 1.03;
+}
+
+.deleteBtn {
+   background-color: rgb(241, 61, 61);
+}
+
+.updateBtn {
+   background-color: rgb(71, 189, 71);
+}
+
+.submit {
+    background-color: black;
+}
+
+.authorList {
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 10px !important;
+    cursor: pointer;
+    padding: 2px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .actionBtn {
+        width: 80px;
+        width: 80px;
+    }
+
+}

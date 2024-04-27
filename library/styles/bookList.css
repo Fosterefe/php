@@ -1,0 +1,87 @@
+.books {
+   flex: 1;
+   margin-top: 50px;
+}
+
+.books h1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.books ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.book {
+    padding: 5px;
+    border-top: 2px solid #D3D3D3;
+}
+
+.book-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: none;
+    padding: 10px 0px;
+}
+
+.filterForm {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.filterFormAuthor {
+    display: flex;
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.category {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookActions {
+    display: flex;
+    gap: 20px;
+}
+
+.categoryFormAuthor {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .filterForm {
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+
+    .book-info {
+        flex-direction: column;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .category h3 {
+        font-size: 15px;
+    }
+}

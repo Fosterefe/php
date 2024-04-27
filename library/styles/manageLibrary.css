@@ -1,0 +1,27 @@
+.manageLibrary {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.updateForm {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.updateForm label {
+    font-weight: bold;
+}
+
+.manageLibrary h1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.updateBtn {
+    margin: 0 auto;
+}

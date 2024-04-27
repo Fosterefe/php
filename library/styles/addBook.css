@@ -1,0 +1,45 @@
+.addBooks {
+   flex: 1;
+   margin-top: 50px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.addBooks h1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.addBookForm {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputField {
+    width: 400px;
+}
+
+.addBookBtn {
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    transition: all 0.1 ease-in;
+}
+
+.addBookBtn:hover {
+    scale: 1.02;
+}
